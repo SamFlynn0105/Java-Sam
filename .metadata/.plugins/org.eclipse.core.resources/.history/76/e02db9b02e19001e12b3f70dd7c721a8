@@ -1,0 +1,11 @@
+package sintax_varflujo;
+
+public class tipo_var {
+
+	public static void main(String [] args){
+		
+        double salario = 37.89;
+
+        System.out.println(salario);
+	
+}

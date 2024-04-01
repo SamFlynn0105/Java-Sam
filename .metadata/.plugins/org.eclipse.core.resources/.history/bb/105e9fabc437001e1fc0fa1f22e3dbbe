@@ -1,0 +1,26 @@
+package new_sambank;
+
+//entidad cuenta
+class Cuenta {
+	double saldo;
+	int agencia;
+	int numero;
+	String titular;
+	
+	public void deposito(double val){
+		this.saldo = this.saldo + val;
+		
+	}
+	
+	public boolean retiro(double val) {
+		if(this.saldo >= val) {
+			this.saldo = this.saldo - val;
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+	transfer(double val,  )
+
+}

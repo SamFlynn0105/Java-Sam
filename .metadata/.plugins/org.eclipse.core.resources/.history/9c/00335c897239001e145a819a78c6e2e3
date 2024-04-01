@@ -1,0 +1,58 @@
+package new_sambank;
+//entidad cuenta
+class Cuenta {
+	private double saldo;
+	int agencia;
+	int numero;
+	Cliente titular;
+	
+	public void deposito(double val){
+		this.saldo += val;
+		
+	}
+	
+	public boolean retiro(double val) {
+		if(this.saldo >= val) {
+			this.saldo -= val;
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+	
+	public boolean transfer(double val, Cuenta cuenta) {
+		
+		if(this.saldo >= val) {
+			this.saldo -= val;
+			//cuenta.saldo = cuenta.saldo - val;
+			cuenta.deposito(val);
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+	
+	public double getSaldo() {
+		return this.saldo;
+	}
+	
+	public void setAgencia(int agencia) {
+		if(agencia > 0) {
+			this.agencia = agencia;	
+		}
+		else {
+			System.out.println("no estan permitidos valores negativos...");
+		}
+	}
+	
+	public int getAgencia() {
+		return agencia;
+	}
+	
+	public void setTitular(Cliente titular) {
+		this.titular = titular;
+	}
+
+}

@@ -1,0 +1,10 @@
+package new_sambank;
+
+public class Cliente {
+	
+	String titular;
+	String nombre;
+	String doc;
+	String tel;
+
+}

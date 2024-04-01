@@ -1,0 +1,14 @@
+package new_sambank;
+
+//entidad cuenta
+class Cuenta {
+	double saldo;
+	int agencia;
+	int numero;
+	String titular;
+	
+	void deposito(double val){
+		
+	}
+
+}

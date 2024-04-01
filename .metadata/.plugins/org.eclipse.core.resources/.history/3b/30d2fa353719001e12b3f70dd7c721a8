@@ -1,0 +1,20 @@
+package sintax_varflujo;
+
+public class ejemp_condicionales2 {
+	
+	public static void main(String[] args) {
+		//System.out.println("hola que tal");
+		
+		int edad = 21;
+		int cantpers = 2;
+		
+		boolean espar=true;
+		
+		if(edad >= 18 && espar==2) {
+			System.out.println("puedes entrar...");
+		}
+		else {
+			System.out.println("no estas autorizado..."+"a entrar");
+		}
+	}
+}

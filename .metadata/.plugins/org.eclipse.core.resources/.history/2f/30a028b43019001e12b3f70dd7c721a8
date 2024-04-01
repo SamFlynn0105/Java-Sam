@@ -1,0 +1,14 @@
+package sintax_varflujo;
+
+public class tipo_var {
+
+	public static void main(String [] args){
+		
+        double var1=230.89;
+        int varint = (int) var1; //cast
+        
+        System.out.println(varint);
+        
+	}      
+	
+}

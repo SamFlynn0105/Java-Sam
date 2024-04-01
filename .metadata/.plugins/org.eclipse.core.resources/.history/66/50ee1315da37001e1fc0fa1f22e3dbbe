@@ -1,0 +1,11 @@
+package new_sambank;
+
+public class test_ref3 {
+	public static void main(String[] args) {
+		Cliente cliente = new Cliente();
+		cuentaSam.titular.nombre = "samuel";
+		
+		System.out.println(cuantaSam.titular.nombre);
+	}
+
+}

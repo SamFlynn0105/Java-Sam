@@ -1,0 +1,13 @@
+package sintax_varflujo;
+
+public class ejemp_for {
+	public static void main(String[] args) {
+		
+		int ntm;
+		
+		for(ntm=0;ntm<=10;ntm++) {
+			System.out.println(ntm);
+		}
+	}
+
+}

@@ -1,0 +1,14 @@
+package new_sambank;
+
+public class testacces {
+	public static void main(String[] args) {
+		Cuenta cuenta = new Cuenta();
+		//cuenta.saldo = 200;
+		cuenta.deposito(400);
+		cuenta.retiro(300);
+		//cuenta.saldo -= 300;
+		
+		System.out.println(cuenta.obtnSaldo());
+	}
+
+}

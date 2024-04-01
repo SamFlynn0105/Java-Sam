@@ -1,0 +1,22 @@
+package new_sambank;
+
+public class prueba_metodos {
+	public static void main(String[] args) {
+		Cuenta miCuenta = new Cuenta();
+		miCuenta.saldo = 300;
+	    miCuenta.deposito(200);
+	    
+	    System.out.println(miCuenta.saldo);
+	    
+	    miCuenta.retiro(100);
+	    System.out.println(miCuenta.saldo);
+	    
+	    Cuenta CuentaJim = new Cuenta();
+	    CuentaJim.deposito(1000);
+	    CuentaJim.transfer(400, miCuenta);
+	    
+	    System.out.println(CuentaJim.saldo);
+	    System.out.println(miCuenta.saldo);
+	}
+
+}

@@ -1,0 +1,10 @@
+package new_sambank;
+
+public class prueba_metodos {
+	public static void main(String[] args) {
+		Cuenta miCuenta = new Cuenta();
+		miCuenta.saldo = 300;
+	    miCuenta.deposito(0);	
+	}
+
+}

@@ -1,0 +1,7 @@
+package new_sambank;
+
+public class tets_ref2 {
+	Cliente sam = new Cliente();
+	sam
+
+}

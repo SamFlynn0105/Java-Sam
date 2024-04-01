@@ -1,0 +1,17 @@
+package sintax_varflujo;
+
+public class test_descuento {
+
+	    public static void main(String[] args) {
+
+	    double valorCompra = 150.00;
+	        // ifs aqui
+	    if(valorCompra>=100.00 && valorCompra<=199.99) {
+	    	System.out.println("Descuento 10%");
+	    }
+	    else if(valorCompra>=200.00 && valorCompra<=299.99) {
+	    	System.out.println("Descuento 15%");
+	    }
+	}
+
+}
